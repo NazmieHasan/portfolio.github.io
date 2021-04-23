@@ -1,425 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Portfolio - About, Projects, Tasks, Contacts</title>
-    <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/minty-bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="plugins/slick-1.8.1/slick/slick.css">
-    <link rel="stylesheet" href="plugins/slick-1.8.1/slick/slick-theme.css">
-    <!--jQuery-->
-    <script src="lib/jquery-3.5.1.min.js"></script>
-    <link rel="stylesheet" href="custom.css">
-     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-</head>
-<body id="pageToTop">
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-    <a class="navbar-brand">Portfolio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#about">About <span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#certificates">Certificates</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#tasks">Tasks</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<header class="container-fluid text-center bg-light pt-3 pb-5" id="about">
-    <img class="img-thumbnail" src="images/header-image.jpg" alt="my-image" style="margin-top: 3em; border: 1px solid #78c2ad; border-radius: 50%;">
-    <h5 class="h5 pt-3 text-uppercase font-weight-bold">Nazmie Hasan</h5>
-    <p class="p mb-0" style="color: #78c2ad;">
-        <i class="fab fa-php" style="font-size: 24px; font-weight: 900;"></i>
-        <i class="fas fa-database"></i>
-        <i class="fab fa-js" style="font-size: 20px;"></i>
-        <i class="fas fa-laptop-code"></i>
-        <i class="fas fa-book-reader"></i>
-        <i class="fas fa-calculator"></i>
-        <i class="fas fa-shapes"></i>
-        <i class="fas fa-chalkboard-teacher"></i>
-        <i class="fas fa-divide"></i>
-        <i class="fas fa-infinity"></i>
-        <i class="fas fa-less-than-equal"></i>
-        <i class="fas fa-superscript"></i>
-        <i class="fas fa-book-open"></i>
-    </p>
-    <p class="p m-0" style="font-weight: 500;"><i class="fa fa-map-marker-alt mr-1" aria-hidden="true" style="font-size: 12px;"></i>Varna, Bulgaria</p>
-    <button type="button" class="btn btn-success mt-2 mb-3"><a href="mailto:nazmie.s.hasan@gmail.com" style="color: #ffffff;"><i class="fas fa-envelope mr-2"></i>nazmie.s.hasan@gmail.com</a></button>
-</header>
-<main>
-    <section class="container-fluid text-center pt-3 pb-2" id="certificates">
-        <h3 class="h3 text-center mt-5 mb-3">
-            CERTIFICATES
-        </h3>
-        <div class="card-group">
-            <div class="card border-primary mr-2 ml-2 border rounded">
-                <div class="card-header">
-                    <h3 class="card-title mb-0">
-                        <a href="https://softuni.bg/certificates/details/67485/04f2d0b5" target=_blank>
-                            Details
-                        </a>
-                    </h3>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Portfolio - About, Projects, Tasks, Contacts</title>
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="css/minty-bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="plugins/slick-1.8.1/slick/slick.css">
+        <link rel="stylesheet" href="plugins/slick-1.8.1/slick/slick-theme.css">
+        <!--jQuery-->
+        <script src="lib/jquery-3.5.1.min.js"></script>
+        <link rel="stylesheet" href="custom.css">
+        <!--Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body id="pageToTop">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+            <a class="navbar-brand">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">About <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificates">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tasks">Tasks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header class="container-fluid text-center bg-light pt-3 pb-5" id="about">
+            <img class="img-thumbnail" src="images/header-image.jpg" alt="my-image" style="margin-top: 3em; border: 1px solid #78c2ad; border-radius: 50%;">
+            <h5 class="h5 pt-3 text-uppercase font-weight-bold">Nazmie Hasan</h5>
+            <p class="p mb-0" style="color: #78c2ad;">
+                <i class="fab fa-php" style="font-size: 24px; font-weight: 900;"></i>
+                <i class="fas fa-database"></i>
+                <i class="fab fa-js" style="font-size: 20px;"></i>
+                <i class="fas fa-laptop-code"></i>
+                <i class="fas fa-book-reader"></i>
+                <i class="fas fa-calculator"></i>
+                <i class="fas fa-shapes"></i>
+                <i class="fas fa-chalkboard-teacher"></i>
+                <i class="fas fa-divide"></i>
+                <i class="fas fa-infinity"></i>
+                <i class="fas fa-less-than-equal"></i>
+                <i class="fas fa-superscript"></i>
+                <i class="fas fa-book-open"></i>
+            </p>
+            <p class="p m-0" style="font-weight: 500;"><i class="fa fa-map-marker-alt mr-1" aria-hidden="true" style="font-size: 12px;"></i>Varna, Bulgaria</p>
+            <button type="button" class="btn btn-success mt-2 mb-3"><a href="mailto:nazmie.s.hasan@gmail.com" style="color: #ffffff;"><i class="fas fa-envelope mr-2"></i>nazmie.s.hasan@gmail.com</a></button>
+        </header>
+        <main>
+            <section class="container-fluid text-center pt-3 pb-2" id="certificates">
+                <h3 class="h3 text-center mt-5 mb-3">CERTIFICATES</h3>
+                <div class="card-group">
+                    <div class="card border-primary mr-2 ml-2 border rounded">
+                        <div class="card-header">
+                            <h3 class="card-title mb-0">
+                                <a href="https://softuni.bg/certificates/details/67485/04f2d0b5" target=_blank>Details</a>
+                            </h3>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://softuni.bg/certificates/details/67485/04f2d0b5" target=_blank>
+                                <img class="card-img-top m-auto rounded-0" src="images/Certificate-Programming-Basics-April-2019.jpg" alt="Certificate">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card border-primary mr-2 ml-2 border rounded">
+                        <div class="card-header">
+                            <h3 class="card-title mb-0">
+                                <a href="https://softuni.bg/certificates/details/68201/be8509c4" target=_blank>Details</a>
+                            </h3>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://softuni.bg/certificates/details/68201/be8509c4" target=_blank>
+                                <img class="card-img-top m-auto rounded-0" src="images/Certificate-Programming-Basics-May-2019.jpg" alt="Certificate">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card border-primary mr-2 ml-2 border rounded">
+                        <div class="card-header">
+                            <h3 class="card-title mb-0">
+                                <a href="images/Certificate-PHP-Fundamentals.jpg" target=_blank>Details</a>
+                            </h3>
+                        </div>
+                        <div class="card-body">
+                            <a href="images/Certificate-PHP-Fundamentals.jpg" target=_blank>
+                                <img class="card-img-top m-auto rounded-0" src="images/Certificate-PHP-Fundamentals.jpg" alt="certificate">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card border-primary mr-2 ml-2 border rounded">
+                        <div class="card-header">
+                            <h3 class="card-title mb-0">
+                                <a href="https://softuni.bg/certificates/details/88519/dfd370cf" target=_blank>Details</a>
+                            </h3>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://softuni.bg/certificates/details/88519/dfd370cf" target=_blank>
+                                <img class="card-img-top m-auto rounded-0" src="images/Certificate-PHP-MVC-Frameworks-Symfony.jpg" alt="certificate">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <a href="https://softuni.bg/certificates/details/67485/04f2d0b5" target=_blank>
-                        <img class="card-img-top m-auto rounded-0" src="images/Certificate-Programming-Basics-April-2019.jpg" alt="Certificate">
+            </section>
+            <section class="container pt-3 pb-2" id="skills">
+                <h3 class="h3 text-center mt-5 mb-3">SKILLS</h3>
+                <h3 class="h3 text-left mt-3 mb-0" style="color: #78c2ad;">Photoshop</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                </div>
+                <h3 class="h3 text-left mt-3 mb-0" style="color: #ffce67;">Bootstrap</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                </div>
+                <h3 class="h3 text-left mt-3 mb-0" style="color: #78c2ad;">JavaScript</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                </div>
+                <h3 class="h3 text-left mt-3 mb-0" style="color: #ffce67;">jQuery</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                </div>
+                <h3 class="h3 text-left mt-3 mb-0" style="color: #78c2ad;">PHP</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                </div>
+                <h3 class="h3 text-left mt-3 mb-0" style="color: #ffce67;">WordPress</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                </div>
+                <h3 class="h3 text-left mt-3 mb-0" style="color: #78c2ad;">Symfony</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                </div>
+                <div>
+                    <h4 class="h4 mt-3 mb-0"><span style="text-decoration: underline;">Other skills</span>: MySQL, Kinvey, Postman, REST API, AJAX, XML, JSON, SASS/LESS, Data Structures, Algorithms, Git, GitHub.</h4>
+                </div>
+            </section>
+            <h3 class="h3 text-center mt-5 mb-3">PROJECTS</h3>
+            <div class="container-fluid" id="projects">
+                <section class="container">
+                    <div id="accordion">
+                        <div class="card bg-transparent">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                   <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Photoshop</button>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h4><a href="https://github.com/NazmieHasan/Photoshop-Design" target=_blank>Hotel</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bootstrap</button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h4><a href="https://github.com/NazmieHasan/beauty-salon.github.io" target=_blank>Beauty Salon</a></h4>
+                                    <h4><a href="https://github.com/NazmieHasan/kids-corner.github.io" target=_blank>Kids Corner</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">JavaScript</button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h4><a href="https://github.com/NazmieHasan/TeamManager" target=_blank>Team Manager</a></h4>
+                                    <h4><a href="https://github.com/NazmieHasan/CookUni" target=_blank>CookUni</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent">
+                            <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">jQuery</button>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h4><a href="https://github.com/NazmieHasan/portfolio.github.io" target=_blank>Portfolio</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent">
+                            <div class="card-header" id="headingFive">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">PHP</button>
+                                </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h4><a href="https://github.com/NazmieHasan/OnlineShopForWomen" target=_blank>Online Shop</a></h4>
+                                    <h4><a href="https://github.com/NazmieHasan/library" target=_blank>Library</a></h4>
+                                    <h4><a href="https://github.com/NazmieHasan/softuni-bazar" target=_blank>Bazar</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent">
+                            <div class="card-header" id="headingSix">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">WordPress</button>
+                                </h5>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h4><a href="http://wordpresshotel.ezyro.com/en/" target=_blank>Hotel</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent">
+                            <div class="card-header" id="headingSeven">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Symfony</button>
+                                </h5>
+                            </div>
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h4><a href="https://github.com/NazmieHasan/blog" target=_blank>Blog</a></h4>
+                                    <h4><a href="https://github.com/NazmieHasan/symfonyhotel" target=_blank>Hotel</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+           </div>
+           <section class="project-slider">
+                <div>
+                    <a href="https://nazmiehasan.github.io/beauty-salon.github.io/" target=_blank>
+                        <img src="images/01.png" alt="image">
                     </a>
                 </div>
-            </div>
-            <div class="card border-primary mr-2 ml-2 border rounded">
-                <div class="card-header">
-                    <h3 class="card-title mb-0">
-                        <a href="https://softuni.bg/certificates/details/68201/be8509c4" target=_blank>
-                            Details
-                        </a>
-                    </h3>
-                </div>
-                <div class="card-body">
-                    <a href="https://softuni.bg/certificates/details/68201/be8509c4" target=_blank>
-                        <img class="card-img-top m-auto rounded-0" src="images/Certificate-Programming-Basics-May-2019.jpg" alt="Certificate">
+                <div>
+                    <a href="https://nazmiehasan.github.io/kids-corner.github.io/" target=_blank>
+                        <img src="images/02.png" alt="image">
                     </a>
                 </div>
-            </div>
-            <div class="card border-primary mr-2 ml-2 border rounded">
-                <div class="card-header">
-                    <h3 class="card-title mb-0">
-                        <a href="images/Certificate-PHP-Fundamentals.jpg" target=_blank>
-                            Details
-                        </a>
-                    </h3>
-                </div>
-                <div class="card-body">
-                    <a href="images/Certificate-PHP-Fundamentals.jpg" target=_blank>
-                        <img class="card-img-top m-auto rounded-0" src="images/Certificate-PHP-Fundamentals.jpg" alt="certificate">
+                <div>
+                    <a href="http://onlineshopforwomen.unaux.com/shop/index.php" target=_blank>
+                        <img src="images/03.png" alt="image">
                     </a>
                 </div>
-            </div>
-            <div class="card border-primary mr-2 ml-2 border rounded">
-                <div class="card-header">
-                    <h3 class="card-title mb-0">
-                        <a href="https://softuni.bg/certificates/details/88519/dfd370cf" target=_blank>
-                            Details
-                        </a>
-                    </h3>
-                </div>
-                <div class="card-body">
-                    <a href="https://softuni.bg/certificates/details/88519/dfd370cf" target=_blank>
-                        <img class="card-img-top m-auto rounded-0" src="images/Certificate-PHP-MVC-Frameworks-Symfony.jpg" alt="certificate">
+                <div>
+                    <a href="http://wordpresshotel.ezyro.com/en/" target=_blank>
+                        <img src="images/04.png" alt="image">
                     </a>
                 </div>
+                <div>
+                    <a href="https://nazmiehasan.github.io/symfonyhoteldesign.github.io/" target=_blank>
+                        <img src="images/05.png" alt="image">
+                    </a>
+                </div>
+            </section>
+            <h3 class="h3 text-center mt-5 mb-3 pt-5">TASKS</h3>
+            <div class="container-fluid" id="tasks">
+                <section class="container">
+                    <div id="accordionT">
+                        <div class="card bg-transparent">
+                            <div class="card-header" id="headingOneT">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneT" aria-expanded="true" aria-controls="collapseOneT">PHP</button>
+                                </h5>
+                            </div>
+                            <div id="collapseOneT" class="collapse show" aria-labelledby="headingOneT" data-parent="#accordionT">
+                                <div class="card-body">
+                                    <h4><a href="https://github.com/NazmieHasan/PHPFundamentals" target=_blank>PHP Fundamentals</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent">
+                            <div class="card-header" id="headingTwoT">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoT" aria-expanded="false" aria-controls="collapseTwoT">JS</button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwoT" class="collapse" aria-labelledby="headingTwoT" data-parent="#accordionT">
+                                <div class="card-body">
+                                    <h4><a href="https://github.com/NazmieHasan/JavaScriptForFrontEnd" target=_blank>JavaScript For Front-End</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent">
+                            <div class="card-header" id="headingThreeT">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreeT" aria-expanded="false" aria-controls="collapseThreeT">C#</button>
+                                </h5>
+                            </div>
+                            <div id="collapseThreeT" class="collapse" aria-labelledby="headingThreeT" data-parent="#accordionT">
+                                <div class="card-body">
+                                    <h4><a href="https://github.com/NazmieHasan/DataStructuresFundamentals" target=_blank>Data Structures Fundamentals</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent">
+                            <div class="card-header" id="headingFourT">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourT" aria-expanded="false" aria-controls="collapseFourT">Java</button>
+                                </h5>
+                            </div>
+                            <div id="collapseFourT" class="collapse" aria-labelledby="headingFourT" data-parent="#accordionT">
+                                <div class="card-body">
+                                    <h4><a href="https://github.com/NazmieHasan/AlgorithmsFundamentals" target=_blank>Algorithms Fundamentals</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </div>
-    </section>
-    <section class="container pt-3 pb-2" id="skills">
-        <h3 class="h3 text-center mt-5 mb-3">
-            SKILLS
-        </h3>
-        <h3 class="h3 text-left mt-3 mb-0" style="color: #78c2ad;">
-            Photoshop
-        </h3>
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
-        </div>
-
-        <h3 class="h3 text-left mt-3 mb-0" style="color: #ffce67;">
-            Bootstrap
-        </h3>
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
-        </div>
-        <h3 class="h3 text-left mt-3 mb-0" style="color: #78c2ad;">
-            JavaScript
-        </h3>
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
-        </div>
-        <h3 class="h3 text-left mt-3 mb-0" style="color: #ffce67;">
-            jQuery
-        </h3>
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
-        </div>
-        <h3 class="h3 text-left mt-3 mb-0" style="color: #78c2ad;">
-            PHP
-        </h3>
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
-        </div>
-        <h3 class="h3 text-left mt-3 mb-0" style="color: #ffce67;">
-            WordPress
-        </h3>
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
-        </div>
-        <h3 class="h3 text-left mt-3 mb-0" style="color: #78c2ad;">
-            Symfony
-        </h3>
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
-        </div>
-        <div>
-            <h4 class="h4 mt-3 mb-0"><span style="text-decoration: underline;">Other skills</span>: MySQL, Kinvey, Postman, REST API, AJAX, XML, JSON, SASS/LESS, Data Structures, Algorithms, Git, GitHub.</h4>
-        </div>
-    </section>
-    <h3 class="h3 text-center mt-5 mb-3">
-        PROJECTS
-    </h3>
-    <div class="container-fluid" id="projects">
-        <section class="container">
-            <div id="accordion">
-                <div class="card bg-transparent">
-                    <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Photoshop
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
-                            <h4><a href="https://github.com/NazmieHasan/Photoshop-Design" target=_blank>Hotel</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-transparent">
-                    <div class="card-header" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Bootstrap
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">
-                            <h4><a href="https://github.com/NazmieHasan/beauty-salon.github.io" target=_blank>Beauty Salon</a></h4>
-                            <h4><a href="https://github.com/NazmieHasan/kids-corner.github.io" target=_blank>Kids Corner</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-transparent">
-                    <div class="card-header" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                JavaScript
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div class="card-body">
-                            <h4><a href="https://github.com/NazmieHasan/TeamManager" target=_blank>Team Manager</a></h4>
-                            <h4><a href="https://github.com/NazmieHasan/CookUni" target=_blank>CookUni</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-transparent">
-                    <div class="card-header" id="headingFour">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                jQuery
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                        <div class="card-body">
-                            <h4><a href="https://github.com/NazmieHasan/portfolio.github.io" target=_blank>Portfolio</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-transparent">
-                    <div class="card-header" id="headingFive">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                PHP
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                        <div class="card-body">
-                            <h4><a href="https://github.com/NazmieHasan/OnlineShopForWomen" target=_blank>Online Shop</a></h4>
-                            <h4><a href="https://github.com/NazmieHasan/library" target=_blank>Library</a></h4>
-                            <h4><a href="https://github.com/NazmieHasan/softuni-bazar" target=_blank>Bazar</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-transparent">
-                    <div class="card-header" id="headingSix">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                WordPress
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-                        <div class="card-body">
-                            <h4><a href="http://wordpresshotel.ezyro.com/en/" target=_blank>Hotel</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-transparent">
-                    <div class="card-header" id="headingSeven">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                Symfony
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
-                        <div class="card-body">
-                            <h4><a href="https://github.com/NazmieHasan/blog" target=_blank>Blog</a></h4>
-                            <h4><a href="https://github.com/NazmieHasan/symfonyhotel" target=_blank>Hotel</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <section class="project-slider">
-        <div>
-            <a href="https://nazmiehasan.github.io/beauty-salon.github.io/" target=_blank>
-                <img src="images/01.png" alt="image">
-            </a>
-        </div>
-        <div>
-            <a href="https://nazmiehasan.github.io/kids-corner.github.io/" target=_blank>
-                <img src="images/02.png" alt="image">
-            </a>
-        </div>
-        <div>
-            <a href="http://onlineshopforwomen.unaux.com/shop/index.php" target=_blank>
-                <img src="images/03.png" alt="image">
-            </a>
-        </div>
-        <div>
-            <a href="http://wordpresshotel.ezyro.com/en/" target=_blank>
-                <img src="images/04.png" alt="image">
-            </a>
-        </div>
-        <div>
-            <a href="https://nazmiehasan.github.io/symfonyhoteldesign.github.io/" target=_blank>
-                <img src="images/05.png" alt="image">
-            </a>
-        </div>
-    </section>
-    <h3 class="h3 text-center mt-5 mb-3 pt-5">
-        TASKS
-    </h3>
-    <div class="container-fluid" id="tasks">
-        <section class="container">
-            <div id="accordionT">
-
-                <div class="card bg-transparent">
-                    <div class="card-header" id="headingOneT">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneT" aria-expanded="true" aria-controls="collapseOneT">
-                                PHP
-                            </button>
-                        </h5>
-                    </div>
-
-                    <div id="collapseOneT" class="collapse show" aria-labelledby="headingOneT" data-parent="#accordionT">
-                        <div class="card-body">
-                            <h4><a href="https://github.com/NazmieHasan/PHPFundamentals" target=_blank>PHP Fundamentals</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-transparent">
-                    <div class="card-header" id="headingTwoT">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoT" aria-expanded="false" aria-controls="collapseTwoT">
-                                JS
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwoT" class="collapse" aria-labelledby="headingTwoT" data-parent="#accordionT">
-                        <div class="card-body">
-                            <h4><a href="https://github.com/NazmieHasan/JavaScriptForFrontEnd" target=_blank>JavaScript For Front-End</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card bg-transparent">
-                    <div class="card-header" id="headingThreeT">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreeT" aria-expanded="false" aria-controls="collapseThreeT">
-                                C#
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThreeT" class="collapse" aria-labelledby="headingThreeT" data-parent="#accordionT">
-                        <div class="card-body">
-                            <h4><a href="https://github.com/NazmieHasan/DataStructuresFundamentals" target=_blank>Data Structures Fundamentals</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card bg-transparent">
-                    <div class="card-header" id="headingFourT">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourT" aria-expanded="false" aria-controls="collapseFourT">
-                                Java
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseFourT" class="collapse" aria-labelledby="headingFourT" data-parent="#accordionT">
-                        <div class="card-body">
-                            <h4><a href="https://github.com/NazmieHasan/AlgorithmsFundamentals" target=_blank>Algorithms Fundamentals</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <section class="container text-center mt-5 mb-4" id="contact" >
-        <hr>
-        <h5><a href="https://github.com/NazmieHasan" target=_blank><i class="fab fa-github mr-2"></i>NazmieHasan</a></h5>
-        <hr>
-        <button type="button" class="btn btn-success"><a href="mailto:nazmie.s.hasan@gmail.com" style="color: #ffffff;"><i class="fas fa-envelope mr-2"></i>nazmie.s.hasan@gmail.com</a></button>
-        <hr>
-        <h5 style="color: #78c2ad"><i class="fa fa-map-marker-alt mr-2" aria-hidden="true"></i>Varna, Bulgaria</h5>
-        <hr>
-    </section>
-</main>
-<footer class="container text-center mb-4">
-    <p>© 2021 All Rights Reserved.</p>
-    <h3><a href="#pageToTop"><i class="fa fa-chevron-circle-up"></i></a></h3>
-</footer>
-<!--Bootstrap JS-->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/smooth-scrolling.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script src="plugins/slick-1.8.1/slick/slick.min.js"></script>
-<script src="js/slick-slider.js"></script>
-</body>
+            <section class="container text-center mt-5 mb-4" id="contact" >
+                <hr />
+                <h5><a href="https://github.com/NazmieHasan" target=_blank><i class="fab fa-github mr-2"></i>NazmieHasan</a></h5>
+                <hr />
+                <button type="button" class="btn btn-success"><a href="mailto:nazmie.s.hasan@gmail.com" style="color: #ffffff;"><i class="fas fa-envelope mr-2"></i>nazmie.s.hasan@gmail.com</a></button>
+                <hr />
+                <h5 style="color: #78c2ad"><i class="fa fa-map-marker-alt mr-2" aria-hidden="true"></i>Varna, Bulgaria</h5>
+                <hr />
+            </section>
+        </main>
+        <footer class="container text-center mb-4">
+            <p>© 2021 All Rights Reserved.</p>
+            <h3><a href="#pageToTop"><i class="fa fa-chevron-circle-up"></i></a></h3>
+        </footer>
+        <!--Bootstrap JS-->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/smooth-scrolling.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="plugins/slick-1.8.1/slick/slick.min.js"></script>
+        <script src="js/slick-slider.js"></script>
+    </body>
 </html>
