@@ -6,6 +6,28 @@
     border-color: #ffffff;
   }
 }
+#about{
+  .img-thumbnail{
+	margin-top: 3rem; 
+	border: 1px solid #78c2ad; 
+	border-radius: 50%;
+  }
+  .icons-p{
+    margin: 0;
+	font-weight: bold;
+	color: #78c2ad;
+  }
+  .fa-php{
+    font-size: 24px; 
+  }
+  .fa-js{
+    font-size: 20px; 
+  }
+  .location-p{
+    margin: 0;
+	font-weight: 500;
+  }
+}
 #certificates{
   .card{
     .card-body{
@@ -13,12 +35,20 @@
     }
   }
   img{
-    border: 0.625em solid #9c9595;
+    border: 0.5rem solid #9c9595;
   }
 }
-#projects, #tasks{
+#skills{
+  h3{
+    color: #78c2ad; 
+  }
+}
+#projects{
   background: #487965;
   background-size: cover;
+  h3{
+    padding-top: 4rem;
+  }
   .container{
     padding-top: 5%;
     padding-bottom: 5%;
@@ -43,16 +73,19 @@
 }
 
 .project-slider{
-  width: 80%;
+  width: 90%;
   margin: auto;
-  padding-top: 50px;
+  margin-top: 50px;
   img{
     width: 100%;
     height: auto;
-    border: 0.375em solid #487965;
-    outline: 0.375em solid #487965;
   }
 }
 .slick-prev:before, .slick-next:before{
   color: #487965;
+}
+#contact{
+  h5{
+    color: #78c2ad; 
+  }
 }

@@ -1,40 +1,59 @@
 .navbar-dark .navbar-toggler {
-  border-color: rgba(255, 255, 255, 0.6);
-}
+  border-color: rgba(255, 255, 255, 0.6); }
 .navbar-dark .navbar-toggler:hover {
-  border-color: #ffffff;
-}
+  border-color: #ffffff; }
+#about .img-thumbnail {
+	margin-top: 3rem; 
+	border: 1px solid #78c2ad; 
+	border-radius: 50%; }
+#about .icons-p {
+	margin: 0;
+	font-weight: bold;
+	color: #78c2ad; }	
+#about .fa-php {
+	font-size: 24px; }
+#about .fa-js {
+	font-size: 20px; }
+#about .location-p {
+	margin: 0;
+	font-weight: 500; }	
 #certificates .card .card-body {
   background: rgba(0, 0, 0, 0.03); }
 #certificates img {
-  border: 0.625em solid #9c9595; }
-#projects, #tasks {
+  border: 0.5rem solid #9c9595; }
+#skills {
+  h3 {
+    color: #78c2ad; }
+}  
+#projects {
   background: #487965;
   background-size: cover; }
-#projects .container, #tasks .container {
+#projects h3 {
+  padding-top: 4rem; }
+#projects .container {
   padding-top: 5%;
   padding-bottom: 5%; }
-#projects .container .card, #tasks .container .card {
+#projects .container .card {
   border: 1px solid white; }
-#projects .container .card .card-body, #tasks .container .card .card-body {
+#projects .container .card .card-body {
   color: white; }
-#projects .container .card-header, #tasks .container .card-header {
+#projects .container .card-header {
   background: transparent; }
-#projects .container .card-header .btn-link,  #tasks .container .card-header .btn-link {
+#projects .container .card-header .btn-link {
   color: white;
   text-transform: uppercase;
   font-weight: bold; }
-#projects .container .card-header .btn-link:hover, #tasks .container .card-header .btn-link:hover {
+#projects .container .card-header .btn-link:hover {
   text-decoration: none; }
 .project-slider {
-  width: 80%;
+  width: 90%;
   margin: auto;
-  padding-top: 50px; }
+  margin-top: 50px; }
 .project-slider img {
   width: 100%;
-  height: auto;
-  border:  0.375em solid #487965;
-  outline:  0.375em solid #487965; }
+  height: auto; }
 .slick-prev:before, .slick-next:before {
   color: #487965; }
-/*# sourceMappingURL=custom.css.map */
+#contact h5 {
+  color: #78c2ad; }
+/*# sourcremappingURL=custom.css.map */
